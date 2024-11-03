@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    
+}
+
+.hero {
+    background: linear-gradient(135deg, #4981a3, #5aa5eb);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    /* animation: fadeIn 1s ease; */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    /* animation: fadeIn 1s ease; */
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #00BFFF;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #87CEFA;
+    color: white;
+    transform: scale(1.05);
+}
+
+.mission {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    animation: fadeIn 3s ease;
+}
+
+.mission h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 1em;
+    color: #555;
+}
+
+.auth-buttons {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.auth-button {
+    display: inline-block;
+    padding: 14px 30px;
+    color: white;
+    background-color: #4981a3;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.auth-button:hover {
+    background-color: #5aa5eb;
+    transform: scale(1.05);
+}
+
+.foot {
+    background: linear-gradient(135deg, #4981a3, #5aa5eb);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot p {
+    font-size: 1em;
+    color: white;
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
