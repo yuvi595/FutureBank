@@ -74,7 +74,8 @@ body {
 
 .auth-buttons {
     text-align: center;
-    margin: 40px 0;
+    margin-top: 30px;
+    
 }
 
 .auth-button {
@@ -97,6 +98,7 @@ body {
 
 .foot {
     background: linear-gradient(135deg, #4981a3, #5aa5eb);
+
     text-align: center;
     padding: 10px;
     position: fixed;
